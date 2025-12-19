@@ -19,3 +19,19 @@ Resource Terraform для Yandex Cloud:
 - [Compute Instance.](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/compute_instance)
 
 # Ответ.
+#### Созданные инстансы:
+![Скриншот экрана 1](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-1.png)
+#### Доступ в интернет с public ВМ и пинги private ВМ:
+![Скриншот экрана 2](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-2.png)
+#### Доступ в интернет с private ВМ и пинги public ВМ и шлюза:
+![Скриншот экрана 3](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-3.png)
+#### Созданный шлюз:
+![Скриншот экрана 4](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-4.png)
+#### Созданная группа безопасности:
+![Скриншот экрана 5](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-5.png)
+#### Созданная таблица маршрутизации:
+![Скриншот экрана 6](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-6.png)
+#### Созданные подсети и привязанная таблица маршрутизации:
+![Скриншот экрана 7](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_1/images/cloud-homeworks_1-7.png)
+
+## [Ссылка на репозиторий с terraform проектом](https://github.com/Sem20071/hw-cloud-providers/tree/main/cloud-homeworks_1)
