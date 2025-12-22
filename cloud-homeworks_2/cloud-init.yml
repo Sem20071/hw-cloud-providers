@@ -1,0 +1,38 @@
+#cloud-config
+users:
+  - name: ansible-user
+    groups: 
+      - sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh_authorized_keys:
+      - ${vms_ssh_root_key}
+package_update: true
+package_upgrade: false
+write_files:
+  - path: /tmp/setup_website.sh
+    content: |
+      #!/bin/bash
+      IMAGE_URL="${image_url}"
+      
+      cat > /var/www/html/index.html << EOF
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <title>My Cloud Page</title>
+      </head>
+      <body>
+          <h1> instance:$(hostname) </h1>
+          <img src="$IMAGE_URL" width="400">
+          <p> Image URL: 
+             <a href="$IMAGE_URL" target="_blank">$IMAGE_URL</a>
+          </p>
+      </body>
+      </html>
+      EOF
+      
+      chown www-data:www-data /var/www/html/index.html
+    permissions: '0755'
+runcmd:
+  - bash /tmp/setup_website.sh
+  - systemctl reload apache2

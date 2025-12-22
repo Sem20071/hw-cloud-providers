@@ -1,0 +1,15 @@
+# Local .terraform directories and files
+**/.terraform/*
+.terraform*
+
+!.terraformrc
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+#ansible files
+ansible-config-k8s-cluster*
+ansible-config-k8s-cluster/
+# own secret vars store.
+personal.auto.tfvars
+cmd_kube
