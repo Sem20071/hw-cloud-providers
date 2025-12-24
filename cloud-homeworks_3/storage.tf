@@ -16,8 +16,9 @@ resource "yandex_storage_bucket" "my_bucket" {
     }
   }
   anonymous_access_flags {
-    read = true
-    list = false
+    read        = true
+    list        = true
+    config_read = true
   }
 }
 
@@ -28,3 +29,4 @@ resource "yandex_storage_object" "my_image" {
   content_type = "image/png"
   depends_on   = [yandex_storage_bucket.my_bucket]
 }
+

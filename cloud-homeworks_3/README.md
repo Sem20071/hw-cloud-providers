@@ -21,12 +21,12 @@
 ## [Ссылка на репозиторий с terraform проектом]()
 
 #### Ключ в KMS создан:
-![Скриншот экрана 1]()
+![Скриншот экрана 1](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_3/images/cloud-homeworks_3-1-1.png)
 #### Создан бакет с включеным шифрованием ранее созданным ключем:
-![Скриншот экрана 2]()
+![Скриншот экрана 2](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_3/images/cloud-homeworks_3-1-2.png)
 #### Созданное в бакете изображение зашифровано созданным ключем:
-![Скриншот экрана 3]()
+![Скриншот экрана 3](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_3/images/cloud-homeworks_3-1-3.png)
 #### Проверерка зашифровано ли изображение:
-![Скриншот экрана 4]()
+![Скриншот экрана 4](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_3/images/cloud-homeworks_3-1-4.png)
 
 ## [Ссылка на репозиторий с terraform проектом]()
