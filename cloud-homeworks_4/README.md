@@ -26,31 +26,31 @@
 [K8S node group.](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kubernetes_node_group)
 
 # Ответ.
+## [Ссылка на репозиторий с terraform проектом](https://github.com/Sem20071/hw-cloud-providers/tree/main/cloud-homeworks_4)
+
 #### Дополнительные подсети public и private созданы в разных зонах:
-![Скриншот экрана 1]()
+![Скриншот экрана 1](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-0.png)
 
 #### Кластер mysql развернут ноды размещены в разных подсетях:
-![Скриншот экрана 2]()
-![Скриншот экрана 3]()
+![Скриншот экрана 2](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-1.png)
+![Скриншот экрана 3](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-2.png)
 #### Параметры кластера в соответствии с заданием:
-![Скриншот экрана 4]()
+![Скриншот экрана 4](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-4.png)
+#### БД с именем netology_db создана:
+![Скриншот экрана 4-1](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-5.png)
+
 
 #### Кластер k8s развернут:
-![Скриншот экрана 5]()
+![Скриншот экрана 5](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-8.png)
 #### Региональный мастер Kubernetes с размещением в трех разных подсетях создан:
-![Скриншот экрана 6]()
+![Скриншот экрана 6](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-8-1.png)
 #### Возможность шифрования ключем из KMS добавлена:
-![Скриншот экрана 7]()
 #### Группа узлов из 3х машин с автомаштабированием:
-![Скриншот экрана 8]()
+![Скриншот экрана 8](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-8-3.png)
 
 #### Подключение к Kubernetes кластеру прпомощи kubectl:
-![Скриншот экрана 9]()
+![Скриншот экрана 9](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-9.png)
 #### Запущен микросервис phpmyadmin подключен к ранее созданной БД:
-![Скриншот экрана 10]()
+![Скриншот экрана 10](https://github.com/Sem20071/hw-cloud-providers/blob/main/cloud-homeworks_4/images/cloud-homeworks_4-1-12.png)
 
-
-
-
-
-## [Ссылка на репозиторий с terraform проектом]()
+## [Ссылка на репозиторий с terraform проектом](https://github.com/Sem20071/hw-cloud-providers/tree/main/cloud-homeworks_4)
